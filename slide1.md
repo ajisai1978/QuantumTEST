@@ -85,3 +85,5 @@ QuantumCircuit　正しくない記述は？
 - circuit = QuantumCircuit(qreg, creg)
   circuit.measure(qreg[0], creg[0])
   circuit.measure(qreg[1], creg[1])
+---
+問題10 Measure　正しくない記述は？
