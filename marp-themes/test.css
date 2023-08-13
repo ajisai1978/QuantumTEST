@@ -36,7 +36,7 @@ section.slides h3 {
     font-family:"Arial", "Hiragino Kaku Gothic ProN";
     color: black;
     position: absolute;
-    left: 50px; top: 100px;
+    left: 50px; right:50px; top: 100px;
 }
 /* @theme test */
  
