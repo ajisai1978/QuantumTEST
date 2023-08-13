@@ -1,18 +1,21 @@
 ---
 marp: true
-theme: gaia
+theme: test
 footer: "**2023-B-07-a**"
 paginate: true 
 
 ---
 <!--
+class: title
 _backgroundColor: orange
-paginate: true
 -->
+
 # 想定問題集
 
 ---
+
 ## 問題１
+
 ### 位相回転するゲートは？
 
 - Xゲート
@@ -20,6 +23,7 @@ paginate: true
 - Zゲート
 - Tゲート
 - Sゲート
+
 ---
 
 ## 回答1
@@ -128,6 +132,6 @@ paginate: true
   circuit.measure(qreg, creg)
 - circuit = QuantumCircuit(qreg, creg)
   circuit.measure(qreg[0], creg[0])
-  circuit.measure(qreg[1], creg[1])
+
 ---
 問題10 Measure　正しくない記述は？
