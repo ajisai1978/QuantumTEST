@@ -2,42 +2,41 @@
  
 @import 'default';
  
-section {
+section.title {
+    color: black;
     font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-size: 32px;
+    font-size: 25px;
     padding: 40px;
 }
 
 section.title h1 {
     color: black;
     font-family: "Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 600px;
-    text-alig0: center;
-}
-
-section.title {
-    color: black;
-    font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-size: 100px;
+    font-size: 160px;
     text-align: center;
-    padding: 40px;
 }
 
-section.slides h1 {
-    background: linear-gradient( to left,  rgba(69,179,224,1) 25%, rgb(97, 109, 218) 75% );
-    -webkit-backg32und-clip: text;
-    color: transparent;
-    font-family:0"Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 32px;
-    position: absolute;
-    left: 100px; top: 50px;
+section.slides ol{
+    color: black;
+    font-family:"Arial", "Hiragino Kaku Gothic ProN";
+    font-size: 25px;
+    left: 70px;
 }
 
-section.s100es h2 {
-    font-size: 32px;
-    color: #4ac;
+section.slides h2 {
+    color: black;
+    font-family:"Arial", "Hiragino Kaku Gothic ProN";
+    font-size: 50px;
     position: absolute;
-    left: 50px; top: 90px;
+    left: 50px; top: 50px;
+}
+
+section.slides h3 {
+    font-size: 32px;
+    font-family:"Arial", "Hiragino Kaku Gothic ProN";
+    color: black;
+    position: absolute;
+    left: 50px; top: 100px;
 }
 /* @theme test */
  
