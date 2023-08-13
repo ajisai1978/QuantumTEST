@@ -3,21 +3,39 @@ marp: true
 theme: gaia
 footer: "**2023-B-07-a**"
 paginate: true 
+
 ---
-問題１
-位相回転するゲートは？
+<!--
+_backgroundColor: orange
+paginate: true
+-->
+# 想定問題集
+
+---
+## 問題１
+### 位相回転するゲートは？
+
 - Xゲート
 - Yゲート
 - Zゲート
 - Tゲート
 - Sゲート
 ---
-回答1
--test
--test2 
+
+## 回答1
+
+### Z軸の周りを回転することを位相（Phase）回転というので正解は
+
+-Zゲート
+-Tゲート
+-Sゲート
+
 ---
-問題２
-ビット反転するゲートは？
+
+## 問題２
+
+### ビット反転するゲートは？
+
 - Xゲート
 - Yゲート
 - Zゲート
@@ -25,48 +43,65 @@ paginate: true
 - Sゲート
 
 ---
-問題３
-下記を実行すると、量子状態はどうなりますか？
+
+## 問題３
+
+### 下記を実行すると、量子状態はどうなりますか1？
 
 ![100%](./image/3.png)
 
 ---
-問題４
-下記を実行すると、量子状態はどうなりますか？
+
+## 問題４
+
+### 下記を実行すると、量子状態はどうなりますか2？
 
 ![100%](./image/4.png)
 
 ---
-問題５
-下記と等価なゲートは？
+
+## 問題５
+
+### 下記と等価なゲートは1？
 
 ![100%](./image/5.png)
 
 ---
-問題６
-下記と等価なゲートは？
+
+## 問題６
+
+### 下記と等価なゲートは2？
 
 ![100%](./image/6.png)
 
 ---
-問題７
-Sゲートのフェーズの値は？
+
+## 問題７
+
+### Sゲートのフェーズの値は？
+
 - π/2
 - π/4
 - π/8
 - π
 
 ---
-問題８
-Tゲートのフェーズの値は？
+
+## 問題８
+
+### Tゲートのフェーズの値は？
+
 - π/2
 - π/4
 - π/8
 - π
 
 ---
-問題９
-QuantumCircuit　正しくない記述は？
+
+## 問題９
+
+### QuantumCircuit　正しくない記述は？
+
 - QuantumCircuit(QuantumRegister(4))
 - QuantumCircuit(QuantumRegister(4), ClassicalRegister(3))
 - QuantumCircuit(QuantumRegister(4, 'qr0'), QuantumRegister(2, 'qr1'))
@@ -77,7 +112,11 @@ QuantumCircuit　正しくない記述は？
   qc = QuantumCircuit(cr[0:2],qr[0:2])
 
 ---
-問題10 Measure　正しくない記述は？
+
+## 問題10
+
+### Measure　正しくない記述は？
+
 - circuit = QuantumCircuit(2, 2)
   circuit.measure([0,1], [0,1])
 - circuit = QuantumCircuit(2, 2)
