@@ -27,7 +27,7 @@ inputs:
     description: >
       Whether to generate PowerPoint.
     required: false
-    default: "false"
+    default: "true"
 
   generate-image:
     description: >
