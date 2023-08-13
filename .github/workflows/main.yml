@@ -4,10 +4,6 @@ on:
     branches:
       - main
 
-author: "KoharaKazuya"
-description: "Run @marp-team/marp-cli to convert markdown files into static HTML / CSS, PDF, PowerPoint document, and image(s)"
-
-
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -74,3 +70,7 @@ runs:
 branding:
   color: "blue"
   icon: "layers"
+
+
+#author: "KoharaKazuya"
+#description: "Run @marp-team/marp-cli to convert markdown files into static HTML / CSS, PDF, PowerPoint document, and image(s)"
