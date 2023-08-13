@@ -19,8 +19,8 @@ section.title h1 {
 section.slides ol{
     color: black;
     font-family:"Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 25px;
-    left: 70px;
+    font-size: 22px;
+    left: 70px; top: 200px;
 }
 
 section.slides h2 {
