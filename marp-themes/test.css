@@ -11,29 +11,29 @@ section {
 section.title h1 {
     color: black;
     font-family: "Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 60px;
-    text-align: center;
+    font-size: 600px;
+    text-alig0: center;
 }
 
 section.title {
     color: black;
     font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-size: 36px;
+    font-size: 100px;
     text-align: center;
     padding: 40px;
 }
 
 section.slides h1 {
     background: linear-gradient( to left,  rgba(69,179,224,1) 25%, rgb(97, 109, 218) 75% );
-    -webkit-background-clip: text;
+    -webkit-backg32und-clip: text;
     color: transparent;
-    font-family: "Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 42px;
+    font-family:0"Arial", "Hiragino Kaku Gothic ProN";
+    font-size: 32px;
     position: absolute;
-    left: 50px; top: 50px;
+    left: 100px; top: 50px;
 }
 
-section.slides h2 {
+section.s100es h2 {
     font-size: 32px;
     color: #4ac;
     position: absolute;
