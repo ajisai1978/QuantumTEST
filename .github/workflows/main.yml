@@ -26,7 +26,7 @@ inputs:
   generate-pptx:
     description: >
       Whether to generate PowerPoint.
-    required: false
+    required: true
     default: "true"
 
   generate-image:
